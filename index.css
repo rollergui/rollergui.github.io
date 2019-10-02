@@ -48,30 +48,29 @@ main {
   margin: 0, 30px;
 }
 
-.about-me {
+.bio {
   text-align: center;
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 50%;
+  float: left;
 }
 
-.about-me img {
+.bio img {
   width: 50%; 
   border-radius: 50%; 
   margin: 20px;
   max-width: 300px;
 }
 
-.bio {
-  border: 1px solid white;
-  border-radius: 3%;
+.about-me {
   margin: 0 auto;
   padding: 0 10px;
   width: 75%;
   max-width: 400px;
 }
 
-.bio p {
+.about-me p {
   font-size: 15px;
 }
 
