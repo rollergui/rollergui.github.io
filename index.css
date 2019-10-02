@@ -28,19 +28,20 @@ main {
   padding: 10px;
   height: 30px;
   text-align: center;
-  display: flex;
+  display: block;
 }
 
 .navigation-menu ul
 {
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
 .navigation-menu ul li
 {
   list-style-type: none;
-  display: inline;
+  display: block;
+  margin: 5px;
 }
 
 .navigation-menu ul li:not(:first-child):before {
