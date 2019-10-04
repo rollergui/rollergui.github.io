@@ -1,5 +1,5 @@
-html {
-  height: 100%;
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.25rem;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -28,7 +29,6 @@ main {
   width: 100%;
   top: 0;
   padding: 10px;
-  height: 30px;
   text-align: center;
   display: block;
 }
@@ -69,8 +69,8 @@ main {
 .about-me {
   margin: 0 auto;
   padding: 0 10px;
-  width: 75%;
-  max-width: 400px;
+  width: 50%;
+  float: left;
 }
 
 .about-me p {
