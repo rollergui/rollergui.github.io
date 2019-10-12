@@ -20,6 +20,9 @@ main {
   margin-top: 50px;
   padding: 10px;
   color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .navigation-menu {
